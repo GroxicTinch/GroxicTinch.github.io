@@ -2,7 +2,7 @@
 
 # New tab page for firefox #
 HTML, TailwindCSS, JS
-<img width="1034" height="703" alt="image" src="https://github.com/user-attachments/assets/056da968-5220-4452-ab9d-4466be4e8f54" />
+<img width="1065" height="588" alt="image" src="https://github.com/user-attachments/assets/f5457724-51f1-4ec1-b933-9c33178f2cb3" />
 
 # Simple Student Grading #
 HTML, CSS, JS
