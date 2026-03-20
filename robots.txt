@@ -1,0 +1,5 @@
+# Disable crawling by default
+User-agent: *
+Disallow: /
+
+# To allow specific crawlers or paths, add additional rules below.
