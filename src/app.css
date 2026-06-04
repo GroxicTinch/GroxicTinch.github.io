@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* You can add global styles below */
 h2 {
@@ -13,4 +11,15 @@ h3 {
 
 p {
   white-space: pre-line;
+}
+
+input:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

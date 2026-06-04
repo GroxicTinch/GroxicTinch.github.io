@@ -15,9 +15,9 @@
   } = $props();
 </script>
 
-<article class="relative max-w-sm 2xl:max-w-lg bg-white/5 backdrop-blur rounded-xl overflow-hidden hover:scale-105 transition-transform duration-150">
+<article class="relative w-full max-w-sm 2xl:max-w-lg bg-white/5 backdrop-blur rounded-xl overflow-hidden hover:scale-105 transition-transform duration-150">
   {#if banner.length > 0}
-    <div class="absolute top-10 -right-16 w-1/2 rotate-45 {bannerBg || 'bg-gray-300'} {bannerFg || 'text-gray-800'} text-xl font-bold text-center py-1 pointer-events-none shadow-lg shadow-black/50 z-10">
+    <div class="absolute w-[15rem] top-10 -right-16 w-1/2 rotate-45 {bannerBg || 'bg-gray-300'} {bannerFg || 'text-gray-800'} text-xl font-bold text-center py-1 pointer-events-none shadow-lg shadow-black/50 z-10">
       {banner}
     </div>
   {/if}
@@ -34,7 +34,7 @@
 
     <div class="p-4 flex flex-col h-full">
       <div>
-        <h3 class="text-lg font-semibold">{title}</h3>
+        <h3 class="text-lg font-semibold mt-0">{title}</h3>
 
         {#if description}
           <p class="mt-2 mb-3 text-sm text-gray-300">{description}</p>

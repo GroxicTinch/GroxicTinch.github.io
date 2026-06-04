@@ -26,6 +26,15 @@
 		tags={['Browser Addon', 'Tailwind', 'Javascript', 'API']}
 	/>
 	<Card
+		href="./utility-tools"
+		title="Utility Tools"
+		description="A collection of tools."
+		banner="Interactive"
+		bannerBg="bg-blue-300"
+		imageAlt="Utility Tools"
+		tags={['Tailwind', 'Javascript']}
+	/>
+	<Card
 		href="https://github.com/GroxicTinch/WeatherChecker"
 		title="Weather Checker"
 		description="A simple weather checker created with Vue, Tailwind CSS for the frontend with a C# backend."
