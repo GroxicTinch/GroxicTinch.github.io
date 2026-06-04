@@ -1,5 +1,8 @@
 <script context="module">
 	export const title = 'Age Calculator';
+</script>
+
+<script>
 	let curDate = new Date();
 	let atDate = '';
   let dob = '';

@@ -29,6 +29,7 @@
       viewer.width = Math.round(r.width);
       viewer.height = Math.round(r.height);
       viewer.setSize(viewer.width, viewer.height);
+      
     });
 
     if (canvasEl) ro.observe(canvasEl);
@@ -69,4 +70,4 @@
   export function destroy() { viewer?.destroy(); viewer = null; }
 </script>
 
-<canvas bind:this={canvasEl} style="display:block; width:100%; height:100%"></canvas>
+<canvas bind:this={canvasEl} class="mx-auto" style="display:block; width:100%; height:100%"></canvas>

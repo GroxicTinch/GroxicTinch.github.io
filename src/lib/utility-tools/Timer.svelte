@@ -1,6 +1,6 @@
 <script context="module">
 	export const title = 'Timer';
-	// export const description = 'Perform calculations and mathematical operations.';
+	// export const description = '';
 </script>
 
 <script>
